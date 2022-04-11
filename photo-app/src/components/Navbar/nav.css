@@ -1,0 +1,26 @@
+#logo {
+    font-weight: 600;
+    color: red;
+    text-transform: uppercase;
+}
+
+a.nav-link {
+    color: black;
+}
+
+a.nav-link:hover {
+    background-color: antiquewhite;
+    color: red;
+}
+
+.navbar {
+    background: transparent;
+    height: 80px;
+    font-size: 1.2rem;
+    z-index: 999;
+}
+
+.navbar.active {
+    background: linear-gradient(90deg, rgb(235, 236, 230) 0%, rgb(233, 231, 231) 100%);
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
