@@ -27,7 +27,6 @@ function Navbar() {
 
     const changBackground = () => {
         if(window.scrollY >= 80) {
-            console.log(window.scrollY);
             setNavbar(true);
         }else {
             setNavbar(false);
@@ -40,7 +39,7 @@ function Navbar() {
         <ReactBootstrap.Navbar fixed='top' expand={false} className={navbar ? 'navbar active shadow-sm' : 'navbar'}>
             <ReactBootstrap.Container>
                 <ReactBootstrap.Navbar.Brand href="#Home" id="logo">Cocolili</ReactBootstrap.Navbar.Brand>
-                <ReactBootstrap.Navbar.Toggle className='text-secondary' aria-controls="offcanvasNavbar" />
+                <ReactBootstrap.Navbar.Toggle aria-controls="offcanvasNavbar" />
                 <ReactBootstrap.Navbar.Offcanvas
                 id="offcanvasNavbar"
                 aria-labelledby="offcanvasNavbarLabel"

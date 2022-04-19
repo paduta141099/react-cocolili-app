@@ -4,7 +4,7 @@ import * as ReactBootstrap from 'react-bootstrap';
 
 function Carousel() {
     return (
-        <div class="">
+        <div className="img-fluid">
             <ReactBootstrap.Image fluid src={img}></ReactBootstrap.Image>
         </div>
         
